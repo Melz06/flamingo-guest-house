@@ -1,0 +1,791 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Flamingo Guest House offers comfortable rooms, dining, events, and entertainment in a warm, vibrant setting."
+    />
+    <title>Flamingo Guest House</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href="#home" aria-label="Flamingo Guest House home">
+          <img class="brand-logo" src="images/brand/flamingo-logo.jpg" alt="Flamingo Lodge logo">
+          <span>Flamingo Guest House</span>
+        </a>
+        <nav class="desktop-nav" aria-label="Primary navigation">
+          <a href="#rooms">Rooms</a>
+          <a href="#about">About</a>
+          <a href="#events">Events</a>
+          <a href="#activities">Activities</a>
+          <a href="#kitchen">Kitchen</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#gazebo">Gazebo</a>
+          <a href="#explore">Explore</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#map">Map</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="nav-cta" href="https://wa.me/263772286031">Book</a>
+        <button class="menu-button" id="openMenu" type="button" aria-label="Open navigation">Menu</button>
+      </header>
+
+      <div class="mobile-menu" id="mobileMenu" hidden>
+        <button class="close-button" id="closeMenu" type="button" aria-label="Close navigation">Close</button>
+        <a href="#rooms">Rooms</a>
+        <a href="#about">About</a>
+        <a href="#events">Events</a>
+        <a href="#activities">Activities</a>
+        <a href="#kitchen">Kitchen</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#gazebo">Gazebo</a>
+        <a href="#explore">Explore</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#map">Map</a>
+        <a href="#contact">Contact</a>
+        <a href="https://wa.me/263772286031">Book on WhatsApp</a>
+      </div>
+
+      <main>
+        <section
+          id="home"
+          class="hero"
+          style="background-image: linear-gradient(90deg, rgba(15, 17, 20, 0.78), rgba(15, 17, 20, 0.28)), url('images/property/garden-afternoon-wide.jpg')"
+        >
+          <div class="hero-content">
+            <p class="eyebrow">Accommodation, dining and events</p>
+            <h1>Flamingo Guest House</h1>
+            <p class="hero-copy">
+              A warm destination for comfortable stays, intimate celebrations,
+              good food, and relaxed entertainment.
+            </p>
+            <div class="hero-actions">
+              <a class="primary-button" href="https://wa.me/263772286031">Book on WhatsApp</a>
+              <a class="secondary-button" href="#rooms">View Rooms</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="intro section">
+          <div>
+            <p class="eyebrow">Welcome</p>
+            <h2>Everything you need in one inviting place.</h2>
+          </div>
+          <p>
+            Flamingo Guest House brings together accommodation, food, events,
+            and entertainment with a personal touch. Stay the night, host a
+            celebration, plan a meeting, or gather for a relaxed evening.
+          </p>
+        </section>
+
+        <section id="about" class="section about-section">
+          <div class="about-layout">
+            <div>
+              <p class="eyebrow">About Us</p>
+              <h2>A peaceful guesthouse in the Mvurwi area.</h2>
+              <p>
+                Flamingo Guest House is set in a calm farming-town environment,
+                with gardens, common sitting areas, comfortable rooms, food,
+                events, and warm spaces for guests to rest or gather.
+              </p>
+              <p>
+                Guests can enjoy indoor suites, selected en-suite rooms, Wi-Fi,
+                dining, conference-friendly spaces, wedding facilities, and
+                outdoor setups for relaxed social days.
+              </p>
+            </div>
+            <div class="about-photo-grid">
+              <img src="images/property/garden-afternoon-wide.jpg" alt="Flamingo Guest House garden">
+              <img src="images/property/common-lounge-wide.jpg" alt="Common lounge">
+              <img src="images/property/common-orange-lounge.jpg" alt="Sitting area">
+            </div>
+          </div>
+        </section>
+
+        <section class="feature-strip">
+          <article class="feature"><h3>7 Rooms</h3><p>Options for solo travelers, couples, and groups.</p></article>
+          <article class="feature"><h3>Events</h3><p>Weddings, parties, meetings, and special gatherings.</p></article>
+          <article class="feature"><h3>Kitchen</h3><p>Breakfast, lunch, dinner, and custom drinks.</p></article>
+          <article class="feature"><h3>Comfort</h3><p>A friendly base for short visits and longer stays.</p></article>
+        </section>
+
+        <section id="rooms" class="section tinted">
+          <div class="section-heading">
+            <p class="eyebrow">Stay</p>
+            <h2>Rooms</h2>
+            <p>Choose the space that fits your visit, then message us directly to confirm availability.</p>
+          </div>
+          <div class="room-grid">
+            <article class="room-card clickable-card" data-room="Flamingo Suite" tabindex="0" role="button"><img src="images/property/flamingo-pink-wide.jpg" alt="Flamingo Suite room"><div><h3>Flamingo Suite</h3><p>Spacious suite comfort with air conditioning, TV, and an accessible bathroom layout.</p><span>$65/night</span><small>View details and photos</small></div></article>
+            <article class="room-card clickable-card" data-room="Sapphire Swan" tabindex="0" role="button"><img src="images/property/yellow-room-wide.jpg" alt="Sapphire Swan room"><div><h3>Sapphire Swan</h3><p>Calm, cozy ensuite room with a queen bed for business or leisure stays.</p><span>$50/night</span><small>View details and photos</small></div></article>
+            <article class="room-card clickable-card" data-room="Crowned Crane" tabindex="0" role="button"><img src="images/property/yellow-room-bed-view.jpg" alt="Crowned Crane room"><div><h3>Crowned Crane</h3><p>A comfortable ensuite room with a queen bed and an easy, restful feel.</p><span>$50/night</span><small>View details and photos</small></div></article>
+            <article class="room-card clickable-card" data-room="Peacock" tabindex="0" role="button"><img src="images/property/peacock-orange-door.jpg" alt="Peacock room door and bedroom"><div><h3>Peacock</h3><p>A warm private room with access to the common bathroom.</p><span>$45/night</span><small>View details and photos</small></div></article>
+            <article class="room-card clickable-card" data-room="Pelican" tabindex="0" role="button"><img src="images/rooms/pelican-blue-room-window.jpg" alt="Pelican room"><div><h3>Pelican</h3><p>Flexible ensuite room with a double bed and a three-quarter bed.</p><span>$50/night</span><small>View details and photos</small></div></article>
+            <article class="room-card clickable-card" data-room="Sparrow" tabindex="0" role="button"><div class="room-photo-placeholder">Photos coming soon</div><div><h3>Sparrow</h3><p>A budget-friendly private room. Photos coming soon.</p><span>$30/night</span><small>View details</small></div></article>
+            <article class="room-card clickable-card" data-room="The Nest" tabindex="0" role="button"><img src="images/rooms/nest-room-bed-tv.jpg" alt="The Nest presidential suite"><div><h3>The Nest</h3><p>Upstairs presidential suite with extra space, views, air conditioning, and microwave.</p><span>$70/night</span><small>View details and photos</small></div></article>
+          </div>
+        </section>
+
+        <section id="events" class="section">
+          <div class="section-heading">
+            <p class="eyebrow">Gather</p>
+            <h2>Events</h2>
+            <p>From quiet business sessions to joyful celebrations, the space can adapt to the occasion.</p>
+          </div>
+          <div class="card-grid">
+            <article class="image-card clickable-card" data-experience="Wedding Venue" tabindex="0" role="button"><img src="images/events/wedding-garden-table-wide.jpg" alt="Wedding venue"><div><h3>Wedding Venue</h3><p>Elegant intimate weddings with beautiful setups and memorable experiences.</p><small>View photos</small></div></article>
+            <article class="image-card clickable-card" data-experience="Private Events" tabindex="0" role="button"><img src="images/events/private-balloon-night-setup.jpg" alt="Private event"><div><h3>Private Events</h3><p>Birthdays, anniversaries, private parties, and celebrations with friends and family.</p><small>View photos</small></div></article>
+            <article class="image-card clickable-card" data-experience="Conferencing" tabindex="0" role="button"><img src="images/events/conference-projector-wide.jpg" alt="Conference setup"><div><h3>Conferencing</h3><p>Professional spaces for workshops, conferences, strategy sessions, and small team gatherings.</p><small>View photos</small></div></article>
+          </div>
+        </section>
+
+        <section id="activities" class="section activities-section">
+          <div class="section-heading">
+            <p class="eyebrow">Flamingo Activities</p>
+            <h2>Activities & Chillouts</h2>
+            <p>Relaxed experiences for guests, groups, private bookings, and social days at Flamingo Guest House.</p>
+          </div>
+          <div class="card-grid">
+            <article class="image-card clickable-card" data-experience="Braai" tabindex="0" role="button"><img src="images/guesthouse/braai-board-drinks.jpg" alt="Braai grill"><div><h3>Braai</h3><p>Outdoor-style grilled meals for groups, events, and relaxed afternoons.</p><small>View photos</small></div></article>
+            <article class="image-card clickable-card" data-experience="Movie Nights" tabindex="0" role="button"><img src="images/activities/movie-night-lapa-red-lights.jpg" alt="Movie night setup"><div><h3>Movie Nights</h3><p>Indoor and outdoor movie night experiences for friends, families, and groups.</p><small>View photos</small></div></article>
+            <article class="image-card clickable-card" data-experience="Games & Chillouts" tabindex="0" role="button"><img src="images/activities/dart-board.jpg" alt="Dart board games area"><div><h3>Games & Chillouts</h3><p>Dart boards, board games, music, and easy social vibes.</p><small>View photos</small></div></article>
+            <article class="image-card clickable-card" data-experience="Karaoke Nights" tabindex="0" role="button"><img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?q=80&w=1200&auto=format&fit=crop" alt="Karaoke night"><div><h3>Karaoke Nights</h3><p>Fun karaoke evenings filled with laughter, music, and entertainment.</p><small>View photos</small></div></article>
+          </div>
+        </section>
+
+        <section id="kitchen" class="section kitchen">
+          <div class="section-heading">
+            <p class="eyebrow">Taste</p>
+            <h2>The Kitchen</h2>
+            <p>Fresh meals and familiar favorites for overnight guests, event visitors, and local gatherings.</p>
+          </div>
+          <div class="meal-grid">
+            <article class="meal-card clickable-card" data-meal="Breakfast" tabindex="0" role="button"><img src="images/guesthouse/breakfast-full-plate.jpg" alt="Breakfast"><div><h3>Breakfast</h3><p>Fresh coffee, tea, eggs, toast, cereals, fruit, and morning specials.</p><small>View simple menu</small></div></article>
+            <article class="meal-card clickable-card" data-meal="Lunch" tabindex="0" role="button"><img src="images/guesthouse/lunch-traditional-plate.jpg" alt="Lunch"><div><h3>Lunch</h3><p>Tasty traditional and modern meals perfect for business guests and travelers.</p><small>View simple menu</small></div></article>
+            <article class="meal-card clickable-card" data-meal="Dinner" tabindex="0" role="button"><img src="images/guesthouse/candle-dinner-table.jpg" alt="Dinner"><div><h3>Dinner</h3><p>Relaxed evening dining with grills and delicious dishes.</p><small>View simple menu</small></div></article>
+            <article class="meal-card clickable-card" data-meal="Custom Drinks" tabindex="0" role="button"><img src="images/guesthouse/mocktail-trio.jpg" alt="Custom drinks"><div><h3>Custom Drinks</h3><p>Refreshing drinks, mocktails, and custom mixes for events and chillouts.</p><small>View simple menu</small></div></article>
+          </div>
+        </section>
+
+        <section id="gallery" class="section">
+          <div class="section-heading">
+            <p class="eyebrow">Look Around</p>
+            <h2>Gallery</h2>
+            <p>A glimpse of the comfort, food, and social spaces guests can enjoy.</p>
+          </div>
+          <div class="gallery-grid">
+            <img src="images/property/garden-afternoon-wide.jpg" alt="Guesthouse garden">
+            <img src="images/property/common-lounge-wide.jpg" alt="Guesthouse lounge">
+            <img src="images/property/common-orange-lounge.jpg" alt="Sitting area">
+            <img src="images/property/property-front-afternoon.jpg" alt="Guesthouse exterior">
+            <img src="images/property/wedding-table-garden.jpg" alt="Outdoor event setup">
+            <img src="images/property/garden-night-palm.jpg" alt="Garden at night">
+            <img src="images/property/common-dining-room.jpg" alt="Dining room">
+            <img src="images/events/conference-projector-wide.jpg" alt="Conference setup">
+            <img src="images/events/private-balloon-night-table.jpg" alt="Private event setup">
+            <img src="images/guesthouse/braai-board-drinks.jpg" alt="Braai and drinks spread">
+            <img src="images/guesthouse/mocktail-trio.jpg" alt="Custom drinks">
+          </div>
+        </section>
+
+        <section id="gazebo" class="section gazebo-section">
+          <div class="gazebo-layout">
+            <div>
+              <p class="eyebrow">Coming Soon</p>
+              <h2>Rent a Gazebo</h2>
+              <p>We are preparing gazebo rentals for outdoor setups, small celebrations, chillouts, food service, and family gatherings.</p>
+              <a class="primary-button" href="https://wa.me/263772286031?text=Hi%2C%20can%20I%20inquire%20about%20the%20upcoming%20gazebo%20rental%20at%20Flamingo%20Guest%20House%3F">Ask About Gazebo Rentals</a>
+            </div>
+            <div class="gazebo-photo-strip">
+              <img src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=1200&auto=format&fit=crop" alt="Outdoor event setup">
+              <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?q=80&w=1200&auto=format&fit=crop" alt="Outdoor gathering">
+              <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=1200&auto=format&fit=crop" alt="Celebration setup">
+            </div>
+          </div>
+        </section>
+
+        <section id="explore" class="section explore-section">
+          <div class="section-heading">
+            <p class="eyebrow">Know Mvurwi</p>
+            <h2>Things To Explore Around Mvurwi</h2>
+            <p>Mvurwi is a peaceful farming town with countryside drives, dam views, local markets, and creative stone sculpture culture. Ask us for directions, safe travel advice, and nearby outing ideas during your stay.</p>
+          </div>
+          <div class="explore-grid">
+            <article class="explore-card">
+              <img src="images/explore/tobacco-field.jpg" alt="Tobacco leaf plants growing in a field">
+              <div><h3>Farming Town</h3><p>Mvurwi is known as a farming town, especially for tobacco and maize farming, with green fields and peaceful countryside views around the area.</p></div>
+            </article>
+            <article class="explore-card">
+              <img src="https://images.unsplash.com/photo-1518600506278-4e8ef466b810?q=80&w=1200&auto=format&fit=crop" alt="Local market produce">
+              <div><h3>Local Markets</h3><p>Visit the local Mvurwi markets for fresh vegetables, local produce, everyday town life, and friendly vendor culture.</p></div>
+            </article>
+            <article class="explore-card">
+              <img src="images/explore/vhuwe-dam-hills-wide.jpg" alt="Vhuwe Dam hills and water view">
+              <div><h3>Dams & Nature</h3><p>Plan a relaxed nature outing to nearby dam areas such as Pembi Dam, Galiva Dam, Gulliver Dam, or Vhuwe Dam for views, picnics, sunsets, and fishing spots.</p></div>
+            </article>
+            <article class="explore-card">
+              <img src="https://cdn.thestandard.co.zw/thestandard/uploads/2013/12/Mvurwi.jpg" alt="Zimbabwean stone sculpture display">
+              <div><h3>Sculpture & Art</h3><p>Discover local Zimbabwean stone sculpture culture inspired by Mashonaland Central's artistic traditions and Mvurwi's creative heritage.</p></div>
+            </article>
+            <article class="explore-card">
+              <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?q=80&w=1200&auto=format&fit=crop" alt="Wildlife in a game park">
+              <div><h3>Resorts & Game Park Outings</h3><p>There are a few resort-style places nearby, plus game park experiences a few kilometres out of Mvurwi for guests who want a short day trip.</p></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section terms-section">
+          <div class="section-heading">
+            <p class="eyebrow">Good To Know</p>
+            <h2>House Rules & Terms</h2>
+            <p>Short, practical terms for guests. These can be expanded later when you are ready for full booking forms and policies.</p>
+          </div>
+          <div class="terms-grid">
+            <article><h3>Check-in & Check-out</h3><p>Check-in is from 2:00 PM. Check-out is by 10:00 AM unless a late check-out is arranged in advance.</p></article>
+            <article><h3>Payments</h3><p>Bookings are confirmed after availability is checked and payment or deposit arrangements are agreed with management.</p></article>
+            <article><h3>Refunds</h3><p>Refunds depend on notice period, booking type, and event arrangements. Please confirm cancellation terms before paying.</p></article>
+            <article><h3>Guest Conduct</h3><p>Guests are asked to respect other visitors, property, quiet hours, and any event-specific rules shared before arrival.</p></article>
+          </div>
+        </section>
+
+        <section id="reviews" class="section reviews-section">
+          <div class="section-heading">
+            <p class="eyebrow">Guest Reviews</p>
+            <h2>Google Reviews</h2>
+            <p>Kind words shared by guests on our Google Business Profile.</p>
+          </div>
+          <div class="reviews-grid">
+            <article class="review-card">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <p>"Beautiful place and excellent service. Highly recommend."</p>
+              <h3>Chipo Zambasira</h3>
+            </article>
+            <article class="review-card">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <p>"Probably the best place to stay in Mvurwi."</p>
+              <h3>Moses Kuchera</h3>
+            </article>
+            <article class="review-card">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <p>"Nice and serene environment, good for parties and perfect natural backdrops for pictures."</p>
+              <h3>Chelsea Mashingaidze</h3>
+            </article>
+            <article class="review-card">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <p>"Always welcoming, super comfortable, and great food!"</p>
+              <h3>Junior Alexander</h3>
+            </article>
+            <article class="review-card">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <p>"This is my home from home. Good food. Nice comfortable beds and very attentive host. Thank you."</p>
+              <h3>Marshall Rukani</h3>
+            </article>
+            <article class="review-card">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <p>"Best place, with the best services. If you are looking for a home away from home, then this place does just that."</p>
+              <h3>Keith Taruvinga</h3>
+            </article>
+            <article class="review-card">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <p>"It's the cleanest lodge in Mvurwi. It's a beautiful place and a breath of fresh air."</p>
+              <h3>Brian David</h3>
+            </article>
+            <article class="review-card">
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <p>"Great customer service, premium accommodation."</p>
+              <h3>Talent Jokonya</h3>
+            </article>
+          </div>
+          <div class="reviews-action">
+            <a class="secondary-button" href="https://share.google/RlLgoidRv7lkZX65t">View More on Google</a>
+          </div>
+        </section>
+
+        <section id="map" class="section map-section">
+          <div class="section-heading">
+            <p class="eyebrow">Find Us</p>
+            <h2>Location Map</h2>
+            <p>Use the map for a quick location view, or open Google Maps for directions to Flamingo Guest House.</p>
+          </div>
+          <div class="map-layout">
+            <iframe
+              title="Flamingo Guest House location map"
+              src="https://www.google.com/maps?q=Flamingo%20Guest%20House%20Mvurwi%20Zimbabwe&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <div class="map-card">
+              <h3>Flamingo Guest House</h3>
+              <p>Mvurwi, Mashonaland, Zimbabwe</p>
+              <p>For the most accurate navigation, open the saved Google Maps location.</p>
+              <a class="primary-button" href="https://maps.app.goo.gl/oKtzaX5ZXM9a6fP58">Open in Google Maps</a>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+          <div>
+            <p class="eyebrow">Ready to book?</p>
+            <h2>Contact Flamingo Guest House</h2>
+            <p>Message us on WhatsApp for room availability, event bookings, and kitchen enquiries.</p>
+          </div>
+          <div class="contact-card">
+            <p>WhatsApp: +263 772 286 031</p>
+            <p>Phone: +263 78 735 7373</p>
+            <p>Phone: 078 252 3432</p>
+            <p>Email: <a href="mailto:flamingoatsunset@gmail.com">flamingoatsunset@gmail.com</a></p>
+            <p>Mvurwi, Mashonaland, Zimbabwe</p>
+            <p><a href="https://maps.app.goo.gl/oKtzaX5ZXM9a6fP58">Open location on Google Maps</a></p>
+            <p>Accommodation, events, food, and entertainment</p>
+            <a class="primary-button" href="https://wa.me/263772286031">Book on WhatsApp</a>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div class="modal-overlay" id="roomModal" hidden>
+      <section class="modal-panel room-modal-panel" role="dialog" aria-modal="true" aria-labelledby="roomModalTitle">
+        <button class="modal-close" type="button" data-close-modal aria-label="Close room details">Close</button>
+        <div class="modal-gallery">
+          <button class="gallery-button" type="button" id="prevRoomImage" aria-label="Previous room photo">Prev</button>
+          <img id="roomModalImage" src="" alt="">
+          <div class="modal-placeholder" id="roomModalPlaceholder" hidden>Photos coming soon</div>
+          <button class="gallery-button" type="button" id="nextRoomImage" aria-label="Next room photo">Next</button>
+        </div>
+        <div class="modal-content">
+          <p class="eyebrow" id="roomModalPrice"></p>
+          <h2 id="roomModalTitle"></h2>
+          <p id="roomModalDescription"></p>
+          <h3>Amenities</h3>
+          <ul class="amenity-list" id="roomAmenities"></ul>
+          <a class="primary-button" id="roomBookingButton" href="https://wa.me/263772286031">Book this room</a>
+        </div>
+      </section>
+    </div>
+
+    <div class="modal-overlay" id="mealModal" hidden>
+      <section class="modal-panel meal-modal-panel" role="dialog" aria-modal="true" aria-labelledby="mealModalTitle">
+        <button class="modal-close" type="button" data-close-modal aria-label="Close menu">Close</button>
+        <div class="modal-gallery meal-gallery">
+          <button class="gallery-button" type="button" id="prevMealImage" aria-label="Previous meal photo">Prev</button>
+          <img id="mealModalImage" src="" alt="">
+          <button class="gallery-button" type="button" id="nextMealImage" aria-label="Next meal photo">Next</button>
+        </div>
+        <div class="modal-content">
+          <p class="eyebrow">Simple Menu</p>
+          <h2 id="mealModalTitle"></h2>
+          <p id="mealModalDescription"></p>
+          <ul class="menu-list" id="mealMenuItems"></ul>
+          <a class="primary-button" id="mealWhatsappButton" href="https://wa.me/263772286031">Ask about this menu</a>
+        </div>
+      </section>
+    </div>
+
+    <div class="modal-overlay" id="experienceModal" hidden>
+      <section class="modal-panel experience-modal-panel" role="dialog" aria-modal="true" aria-labelledby="experienceModalTitle">
+        <button class="modal-close" type="button" data-close-modal aria-label="Close photos">Close</button>
+        <div class="modal-gallery">
+          <button class="gallery-button" type="button" id="prevExperienceImage" aria-label="Previous photo">Prev</button>
+          <img id="experienceModalImage" src="" alt="">
+          <button class="gallery-button" type="button" id="nextExperienceImage" aria-label="Next photo">Next</button>
+        </div>
+        <div class="modal-content">
+          <p class="eyebrow">Photos & Details</p>
+          <h2 id="experienceModalTitle"></h2>
+          <p id="experienceModalDescription"></p>
+          <h3>Includes</h3>
+          <ul class="menu-list" id="experienceHighlights"></ul>
+          <a class="primary-button" id="experienceWhatsappButton" href="https://wa.me/263772286031">Ask about this</a>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      const experienceDetails = {
+        "Wedding Venue": {
+          description: "Elegant intimate weddings with space for beautiful setups, photos, food, and guest comfort.",
+          highlights: ["Wedding setup space", "Food and drinks options", "Photo-friendly areas", "Custom arrangements on request"],
+          images: [
+            "images/events/wedding-garden-table-wide.jpg",
+            "images/events/wedding-garden-tables-palm.jpg",
+            "images/events/wedding-welcome-sign.jpg",
+            "images/property/wedding-aisle-red-carpet.jpg",
+            "images/property/wedding-ceremony-chairs.jpg"
+          ]
+        },
+        "Private Events": {
+          description: "A flexible space for birthdays, anniversaries, private parties, and family celebrations.",
+          highlights: ["Birthday setups", "Private parties", "Food and drinks", "Music and entertainment options"],
+          images: [
+            "images/events/private-balloon-night-setup.jpg",
+            "images/events/private-balloon-night-table.jpg",
+            "images/events/baby-shower-blue-table.jpg",
+            "images/activities/night-event-garden-crowd.jpg",
+            "images/activities/night-event-chairs-garden.jpg",
+            "images/activities/night-event-garden-tables.jpg",
+            "images/property/outdoor-banquet-table.jpg",
+            "images/property/outdoor-breakfast-table.jpg",
+            "images/property/wedding-table-garden.jpg",
+            "images/guesthouse/event-buffet-rice-potatoes.jpg",
+            "images/guesthouse/event-salad-buffet.jpg"
+          ]
+        },
+        "Conferencing": {
+          description: "A professional setup for meetings, workshops, training sessions, and planning days.",
+          highlights: ["Meeting layout", "Workshop setup", "Tea and meal options", "Private booking available"],
+          images: [
+            "images/events/conference-projector-wide.jpg",
+            "images/events/conference-projector-room.jpg",
+            "images/events/conference-tables-top.jpg",
+            "images/events/conference-table-projector-detail.jpg"
+          ]
+        },
+        "Braai": {
+          description: "Outdoor-style grilled meals for groups, casual afternoons, and private activity bookings.",
+          highlights: ["Grilled meat options", "Sadza, rice, and sides", "Group bookings", "Custom braai packages"],
+          images: [
+            "images/guesthouse/braai-board-drinks.jpg",
+            "images/guesthouse/braai-platter-board.jpg",
+            "images/guesthouse/snack-gizzards-crisps.jpg",
+            "images/guesthouse/snack-soup-crisps.jpg"
+          ]
+        },
+        "Movie Nights": {
+          description: "Indoor and outdoor movie experiences for guests, families, friends, and small groups.",
+          highlights: ["Movie setup", "Snacks and drinks", "Private group bookings", "Indoor or outdoor options"],
+          images: [
+            "images/activities/movie-night-lapa-red-lights.jpg",
+            "images/activities/movie-night-screen-audience.jpg",
+            "images/activities/movie-night-fire-screen.jpg",
+            "images/activities/movie-night-marshmallows.jpg"
+          ]
+        },
+        "Games & Chillouts": {
+          description: "Relaxed social time with games, music, food, drinks, and a casual Flamingo atmosphere.",
+          highlights: ["Dart board", "Board games", "Music and food", "Group chillout bookings"],
+          images: [
+            "images/activities/dart-board.jpg",
+            "images/property/garden-night-lights.jpg",
+            "images/property/garden-night-palm.jpg"
+          ]
+        },
+        "Karaoke Nights": {
+          description: "Fun music nights for guests and private groups who want a lively evening together.",
+          highlights: ["Karaoke setup", "Music and sound", "Food and drink options", "Private event bookings"],
+          images: [
+            "https://images.unsplash.com/photo-1516280440614-37939bbacd81?q=80&w=1200&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?q=80&w=1200&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?q=80&w=1200&auto=format&fit=crop"
+          ]
+        }
+      };
+
+      const roomDetails = {
+        "Flamingo Suite": {
+          price: "$65/night",
+          description: "A spacious suite suited for guests who want extra comfort, air conditioning, and a mobility-friendly bathroom layout. Correct bathroom photos will be added soon.",
+          amenities: ["Queen bed", "Private ensuite", "Bathtub", "Large accessible shower", "Air conditioning", "TV", "Mini fridge", "Fresh linen", "Tea station", "Wi-Fi access"],
+          images: [
+            "images/property/flamingo-pink-wide.jpg",
+            "images/property/flamingo-pink-bed-close.jpg",
+            "images/property/flamingo-pink-mirror.jpg",
+            "images/property/flamingo-suite-fridge.jpg"
+          ]
+        },
+        "Sapphire Swan": {
+          price: "$50/night",
+          description: "A calm, comfortable ensuite room for business travelers, couples, or guests visiting for a short stay.",
+          amenities: ["Queen bed", "Private ensuite", "TV", "Desk space", "Wardrobe", "Fresh towels", "Wi-Fi access"],
+          images: [
+            "images/property/yellow-room-wide.jpg",
+            "images/property/yellow-room-bed-view.jpg",
+            "images/property/yellow-room-bed-close.jpg",
+            "images/property/yellow-room-night-bed.jpg",
+            "images/rooms/nest-bathroom-cream.jpg"
+          ]
+        },
+        "Crowned Crane": {
+          price: "$50/night",
+          description: "A cozy ensuite room with a restful feel, perfect after a long journey or busy day.",
+          amenities: ["Queen bed", "Private ensuite", "TV", "Bedside lighting", "Fresh linen", "Storage space", "Wi-Fi access"],
+          images: [
+            "images/property/yellow-room-bed-view.jpg",
+            "images/property/yellow-room-wide.jpg",
+            "images/property/yellow-room-bed-close-2.jpg",
+            "images/property/yellow-room-night-bed.jpg"
+          ]
+        },
+        "Peacock": {
+          price: "$50/night",
+          description: "A comfortable private room with access to the common bathroom.",
+          amenities: ["Double bed", "Common bathroom access", "TV", "Fresh linen", "Bedside lighting", "Storage space", "Wi-Fi access"],
+          images: [
+            "images/property/peacock-orange-door.jpg",
+            "images/rooms/common-bathroom-tissue-roll.jpg"
+          ]
+        },
+        "Pelican": {
+          price: "$45/night",
+          description: "A flexible ensuite room with two beds, ideal for guests who want a practical shared sleeping arrangement.",
+          amenities: ["Double bed", "Three-quarter bed", "Private ensuite", "TV", "Fresh towels", "Wardrobe", "Charging points", "Wi-Fi access"],
+          images: [
+            "images/rooms/pelican-blue-room-window.jpg",
+            "images/rooms/pelican-blue-room-bed.jpg",
+            "images/rooms/pelican-bathroom-grey-wide.jpg",
+            "images/rooms/pelican-bathroom-grey-detail.jpg"
+          ]
+        },
+        "Sparrow": {
+          price: "$30/night",
+          description: "A budget-friendly option for solo travelers or guests needing a neat place to rest. Real room photos are coming soon.",
+          amenities: ["Private room", "TV", "Fresh linen", "Towels", "Charging point", "Shared facilities where applicable", "Wi-Fi access"],
+          images: []
+        },
+        "The Nest": {
+          price: "$70/night",
+          description: "Our upstairs presidential suite, made for guests who want the most spacious stay with a view over the property.",
+          amenities: ["Queen bed", "Presidential suite", "Upstairs view", "Private ensuite", "Air conditioning", "TV", "Microwave", "Tea station", "Extra storage", "Wi-Fi access"],
+          images: [
+            "images/rooms/nest-room-bed-tv.jpg",
+            "images/rooms/nest-room-suite-view.jpg",
+            "images/rooms/nest-room-desk-fridge.jpg",
+            "images/rooms/flamingo-bath-tub-shower.jpg"
+          ]
+        }
+      };
+
+      const mealDetails = {
+        "Breakfast": {
+          description: "A simple morning menu for guests who want a relaxed start before travel, work, or events.",
+          items: ["Tea or coffee", "Eggs with toast", "Cereal and milk", "Fresh fruit", "Breakfast special on request"],
+          images: [
+            "images/guesthouse/breakfast-full-plate.jpg",
+            "images/guesthouse/breakfast-table.jpg",
+            "images/guesthouse/club-sandwich.jpg",
+            "images/guesthouse/iced-coffee-garden.jpg"
+          ]
+        },
+        "Lunch": {
+          description: "Comfortable midday meals for visitors, business guests, and small groups.",
+          items: ["Chicken and rice", "Beef stew and sadza", "Fresh salad plate", "Burger and chips", "Daily chef special"],
+          images: [
+            "images/guesthouse/lunch-traditional-plate.jpg",
+            "images/guesthouse/lunch-chicken-salad.jpg",
+            "images/guesthouse/rice-stirfry-slaw.jpg",
+            "images/guesthouse/fish-and-chips.jpg",
+            "images/guesthouse/loaded-fries-two-plates.jpg",
+            "images/guesthouse/chicken-loaded-fries.jpg"
+          ]
+        },
+        "Dinner": {
+          description: "Evening meals with warm, filling options and relaxed guesthouse dining.",
+          items: ["Grilled chicken", "Steak and sides", "Rice or sadza", "Vegetable option", "Dessert on request"],
+          images: [
+            "images/guesthouse/candle-dinner-table.jpg",
+            "images/guesthouse/meal-and-drinks.jpg",
+            "images/guesthouse/fish-garden-plate.jpg",
+            "images/guesthouse/rice-stirfry-slaw.jpg"
+          ]
+        },
+        "Custom Drinks": {
+          description: "Custom drink options for guests, private events, chillouts, and celebrations.",
+          items: ["Fruit mocktails", "Fresh juice blends", "Soft drinks", "Iced tea", "Event drink packages on request"],
+          images: [
+            "images/guesthouse/mocktail-trio.jpg",
+            "images/guesthouse/orange-garden-drink.jpg",
+            "images/guesthouse/strawberry-milkshake.jpg",
+            "images/guesthouse/orange-layered-drink.jpg",
+            "images/guesthouse/strawberry-orange-drinks.jpg",
+            "images/guesthouse/iced-coffee-garden.jpg"
+          ]
+        }
+      };
+
+      const openMenu = document.getElementById("openMenu");
+      const closeMenu = document.getElementById("closeMenu");
+      const mobileMenu = document.getElementById("mobileMenu");
+      const roomModal = document.getElementById("roomModal");
+      const mealModal = document.getElementById("mealModal");
+      const experienceModal = document.getElementById("experienceModal");
+      let activeRoom = null;
+      let activeImageIndex = 0;
+      let activeMeal = null;
+      let activeMealImageIndex = 0;
+      let activeExperience = null;
+      let activeExperienceImageIndex = 0;
+
+      openMenu.addEventListener("click", () => {
+        mobileMenu.hidden = false;
+      });
+      closeMenu.addEventListener("click", () => {
+        mobileMenu.hidden = true;
+      });
+      mobileMenu.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", () => {
+          mobileMenu.hidden = true;
+        });
+      });
+
+      function whatsappLink(message) {
+        return `https://wa.me/263772286031?text=${encodeURIComponent(message)}`;
+      }
+
+      function openRoom(roomName) {
+        activeRoom = roomDetails[roomName];
+        activeImageIndex = 0;
+        document.getElementById("roomModalTitle").textContent = roomName;
+        document.getElementById("roomModalPrice").textContent = activeRoom.price;
+        document.getElementById("roomModalDescription").textContent = activeRoom.description;
+        document.getElementById("roomBookingButton").href = whatsappLink(`Hi, can I inquire about the ${roomName} room at Flamingo Guest House?`);
+        document.getElementById("roomAmenities").innerHTML = activeRoom.amenities.map((item) => `<li>${item}</li>`).join("");
+        updateRoomImage();
+        roomModal.hidden = false;
+      }
+
+      function updateRoomImage() {
+        const image = document.getElementById("roomModalImage");
+        const placeholder = document.getElementById("roomModalPlaceholder");
+        const prevButton = document.getElementById("prevRoomImage");
+        const nextButton = document.getElementById("nextRoomImage");
+        if (!activeRoom.images.length) {
+          image.hidden = true;
+          image.removeAttribute("src");
+          placeholder.hidden = false;
+          prevButton.hidden = true;
+          nextButton.hidden = true;
+          return;
+        }
+        image.hidden = false;
+        placeholder.hidden = true;
+        prevButton.hidden = activeRoom.images.length < 2;
+        nextButton.hidden = activeRoom.images.length < 2;
+        image.src = activeRoom.images[activeImageIndex];
+        image.alt = `${document.getElementById("roomModalTitle").textContent} photo ${activeImageIndex + 1}`;
+      }
+
+      function openMeal(mealName) {
+        activeMeal = mealDetails[mealName];
+        activeMealImageIndex = 0;
+        document.getElementById("mealModalTitle").textContent = mealName;
+        document.getElementById("mealModalDescription").textContent = activeMeal.description;
+        document.getElementById("mealMenuItems").innerHTML = activeMeal.items.map((item) => `<li>${item}</li>`).join("");
+        document.getElementById("mealWhatsappButton").href = whatsappLink(`Hi, can I inquire about the ${mealName.toLowerCase()} menu at Flamingo Guest House?`);
+        updateMealImage();
+        mealModal.hidden = false;
+      }
+
+      function updateMealImage() {
+        const image = document.getElementById("mealModalImage");
+        image.src = activeMeal.images[activeMealImageIndex];
+        image.alt = `${document.getElementById("mealModalTitle").textContent} photo ${activeMealImageIndex + 1}`;
+      }
+
+      function openExperience(experienceName) {
+        activeExperience = experienceDetails[experienceName];
+        activeExperienceImageIndex = 0;
+        document.getElementById("experienceModalTitle").textContent = experienceName;
+        document.getElementById("experienceModalDescription").textContent = activeExperience.description;
+        document.getElementById("experienceHighlights").innerHTML = activeExperience.highlights.map((item) => `<li>${item}</li>`).join("");
+        document.getElementById("experienceWhatsappButton").href = whatsappLink(`Hi, can I inquire about ${experienceName} at Flamingo Guest House?`);
+        updateExperienceImage();
+        experienceModal.hidden = false;
+      }
+
+      function updateExperienceImage() {
+        const image = document.getElementById("experienceModalImage");
+        image.src = activeExperience.images[activeExperienceImageIndex];
+        image.alt = `${document.getElementById("experienceModalTitle").textContent} photo ${activeExperienceImageIndex + 1}`;
+      }
+
+      document.querySelectorAll("[data-room]").forEach((card) => {
+        card.addEventListener("click", () => openRoom(card.dataset.room));
+        card.addEventListener("keydown", (event) => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            openRoom(card.dataset.room);
+          }
+        });
+      });
+
+      document.querySelectorAll("[data-meal]").forEach((card) => {
+        card.addEventListener("click", () => openMeal(card.dataset.meal));
+        card.addEventListener("keydown", (event) => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            openMeal(card.dataset.meal);
+          }
+        });
+      });
+
+      document.querySelectorAll("[data-experience]").forEach((card) => {
+        card.addEventListener("click", () => openExperience(card.dataset.experience));
+        card.addEventListener("keydown", (event) => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            openExperience(card.dataset.experience);
+          }
+        });
+      });
+
+      document.getElementById("prevRoomImage").addEventListener("click", () => {
+        if (!activeRoom.images.length) return;
+        activeImageIndex = (activeImageIndex - 1 + activeRoom.images.length) % activeRoom.images.length;
+        updateRoomImage();
+      });
+
+      document.getElementById("nextRoomImage").addEventListener("click", () => {
+        if (!activeRoom.images.length) return;
+        activeImageIndex = (activeImageIndex + 1) % activeRoom.images.length;
+        updateRoomImage();
+      });
+
+      document.getElementById("prevMealImage").addEventListener("click", () => {
+        activeMealImageIndex = (activeMealImageIndex - 1 + activeMeal.images.length) % activeMeal.images.length;
+        updateMealImage();
+      });
+
+      document.getElementById("nextMealImage").addEventListener("click", () => {
+        activeMealImageIndex = (activeMealImageIndex + 1) % activeMeal.images.length;
+        updateMealImage();
+      });
+
+      document.getElementById("prevExperienceImage").addEventListener("click", () => {
+        activeExperienceImageIndex = (activeExperienceImageIndex - 1 + activeExperience.images.length) % activeExperience.images.length;
+        updateExperienceImage();
+      });
+
+      document.getElementById("nextExperienceImage").addEventListener("click", () => {
+        activeExperienceImageIndex = (activeExperienceImageIndex + 1) % activeExperience.images.length;
+        updateExperienceImage();
+      });
+
+      document.querySelectorAll("[data-close-modal]").forEach((button) => {
+        button.addEventListener("click", () => {
+          roomModal.hidden = true;
+          mealModal.hidden = true;
+          experienceModal.hidden = true;
+        });
+      });
+
+      document.querySelectorAll(".modal-overlay").forEach((overlay) => {
+        overlay.addEventListener("click", (event) => {
+          if (event.target === overlay) {
+            overlay.hidden = true;
+          }
+        });
+      });
+
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") {
+          roomModal.hidden = true;
+          mealModal.hidden = true;
+          experienceModal.hidden = true;
+        }
+      });
+    </script>
+  </body>
+</html>

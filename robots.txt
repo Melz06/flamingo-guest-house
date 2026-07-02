@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://melz06.github.io/flamingo-guest-house/sitemap.xml
